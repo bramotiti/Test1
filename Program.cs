@@ -34,7 +34,7 @@ namespace Test1
         }
         static async Task register()
         {
-            HttpClient client = new HttpClient();
+            HttpClient client = new HttpClient()    ;
             var request = new
             {
                 Url = "https://testonline.botswanapost.co.bw/api/api/v1/ApiUsers/register",
